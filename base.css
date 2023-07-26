@@ -1,38 +1,102 @@
-html, body {
-    margin: 0;
+html,
+body {
+  margin: 0;
 }
 body {
-    background-color: #f1f1f1;
-    display: flex;
-    justify-content: center;
+  background-color: #dcdcdc;
+  display: flex;
+  justify-content: center;
 }
 
 .wrapper {
-    width: 1200px;
-    display: flex;
-    margin: 0 auto;
-    background-color: aquamarine;
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  background-color: aquamarine;
 }
 .main {
-    display: flex;
-    flex-flow: column;
-    width: 85%;
+  display: flex;
+  flex-flow: column;
+  width: 85%;
 }
 .menu {
-    width: 15%;
-    background-color: aqua;
-    padding: 10px 20px 0px;
+  width: 15%;
+  background-color: #00bfff;
+  padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+  background-color: rgb(54, 54, 54);
+  min-height: 150px;
 }
 .content {
-    background-color: white;
-    min-height: 300px;
-    padding: 20px;
+  background-color: white;
+  min-height: 300px;
+  padding: 20px;
 }
+
+table {
+  align-items: center;
+}
+
+table,
+tr,
+td,
+th {
+  border: solid 1px rgb(54, 54, 54);
+}
+
+table thead th {
+  background-color: rgb(54, 54, 54);
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+#formContatos {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: auto;
+}
+
+#formContatos label {
+  margin-top: 10px;
+  align-items: right;
+  color: #00bfff;
+  font-weight: 700;
+}
+
+#formContatos input {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: solid 1px rgb(54, 54, 54);
+}
+
+.button-form {
+  margin: auto;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: solid 1px rgb(54, 54, 54);
+  background-color: #00bfff;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(41, 54, 54);
+  min-height: 150px;
 }
